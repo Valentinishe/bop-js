@@ -3,8 +3,8 @@
 
 const age = 20;
 
-if(age < 18) {
-    console.log('Access denied!');
-} else {
+if(age > 18) {
     console.log('Welcome!');
+} else {
+    console.log('Access denied!');    
 }
